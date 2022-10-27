@@ -1,0 +1,100 @@
+body{
+  background: #404040;
+}
+/* 
+Loader */
+
+/* From uiverse.io by @Mike11jr */
+.spinner {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .dot1, .dot2, .dot3 {
+  width: 15px;
+  height: 15px;
+  border: double;
+  border-color: black;
+  border-radius: 50%;
+  margin: 10px;
+ }
+ 
+ .dot1 {
+  animation: jump765 1.6s -0.32s linear infinite;
+  background: red;
+ }
+ 
+ .dot2 {
+  animation: jump765 1.6s -0.16s linear infinite;
+  background: white;
+ }
+ 
+ .dot3 {
+  animation: jump765 1.6s linear infinite;
+  background: red;
+ }
+ 
+ @keyframes jump765 {
+  0%, 80%, 100% {
+   -webkit-transform: scale(0);
+   transform: scale(0);
+  }
+ 
+  40% {
+   -webkit-transform: scale(2.0);
+   transform: scale(2.0);
+  }
+ }
+ 
+/* From uiverse.io by @Mike11jr */
+.spinner {
+ flex-direction: row;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.dot1, .dot2, .dot3 {
+ width: 15px;
+ height: 15px;
+ border: double;
+ border-color: black;
+ border-radius: 50%;
+ margin: 10px;
+}
+
+.dot1 {
+ animation: jump765 1.6s -0.32s linear infinite;
+ background: red;
+}
+
+.dot2 {
+ animation: jump765 1.6s -0.16s linear infinite;
+ background: white;
+}
+
+.dot3 {
+ animation: jump765 1.6s linear infinite;
+ background: red;
+}
+
+@keyframes jump765 {
+ 0%, 80%, 100% {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+ }
+
+ 40% {
+  -webkit-transform: scale(2.0);
+  transform: scale(2.0);
+ }
+}
+
+ .centrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
